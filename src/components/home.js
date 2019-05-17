@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Divider } from 'antd';
+import { Card } from 'antd';
 import { Button } from 'antd';
 
 // 引入标准Fetch及IE兼容依赖

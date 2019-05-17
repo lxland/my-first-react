@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import {
     BrowserRouter as Router,
@@ -8,7 +7,7 @@ import {
 }from 'react-router-dom';
 
 import logo from './logo.svg';
-import { Button, Layout, Menu, Breadcrumb, Icon, } from 'antd';
+import { Layout, Menu, Breadcrumb, Icon, } from 'antd';
 import './App.css';
 
 import home from './components/home.js'
