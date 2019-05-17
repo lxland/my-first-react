@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import {
     BrowserRouter as Router,
@@ -8,11 +7,12 @@ import {
 }from 'react-router-dom';
 
 import logo from './logo.svg';
-import { Button, Layout, Menu, Breadcrumb, Icon, } from 'antd';
+import { Layout, Menu, Breadcrumb, Icon, } from 'antd';
 import './App.css';
 
 import home from './components/home.js'
 import news from './components/news.js'
+import files from './components/file.js'
 
 const {
     Header, Content, Footer, Sider,
@@ -63,6 +63,9 @@ class SiderDemo extends React.Component {
                 <Menu.Item key="2">
                     <Link to="/news"><Icon type="read" />新闻中心</Link>
                 </Menu.Item>
+                <Menu.Item key="9">
+                    <Link to="/files"><Icon type="file" />File</Link>
+                </Menu.Item>
                 <SubMenu
                 key="sub1"
                 title={<span><Icon type="user" /><span>User</span></span>}
@@ -78,10 +81,7 @@ class SiderDemo extends React.Component {
                     <Menu.Item key="6">Team 1</Menu.Item>
                     <Menu.Item key="8">Team 2</Menu.Item>
                 </SubMenu>
-                <Menu.Item key="9">
-                    <Icon type="file" />
-                    <span>File</span>
-                </Menu.Item>
+                
             </Menu>
         
             </Sider>
@@ -94,10 +94,11 @@ class SiderDemo extends React.Component {
                         <Breadcrumb.Item>User</Breadcrumb.Item>
                         <Breadcrumb.Item>Bill</Breadcrumb.Item>
                     </Breadcrumb>
-
+                    
                     <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
                         <Route exact path="/" component={home} />
                         <Route path="/news" component={news} />
+                        <Route path="/fileS" component={files} />
                     </div>
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>

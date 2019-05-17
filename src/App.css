@@ -1,8 +1,8 @@
 /*
  * @Author: mikey.zhaopeng 
  * @Date: 2019-05-09 09:27:27 
- * @Last Modified by:   mikey.zhaopeng 
- * @Last Modified time: 2019-05-09 09:27:27 
+ * @Last Modified by: zlx
+ * @Last Modified time: 2019-05-20 11:40:48
  */
 .App {
   text-align: center;
@@ -33,6 +33,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.py ruby {
+  margin-right: 10px;
 }
 
 @keyframes App-logo-spin {
