@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import { Button } from 'antd';
 import banner from '../assets/images/tz.jpg';
 
