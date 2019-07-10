@@ -18,7 +18,7 @@ export default class myCard extends Component {
                     <ruby>吧<rt>jì</rt></ruby>  
                 </div>
                 
-                <p className="doclist">2342354</p>
+                <p className="doclist">阿斯顿发</p>
                 <img src={banner} />
             </div>
             
